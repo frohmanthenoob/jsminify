@@ -1,0 +1,23 @@
+{
+  "name": "jsminifyelectron",
+  "version": "1.0.0",
+  "description": "minify js on destop app",
+  "main": "main.js",
+  "scripts": {
+    "test": "gg",
+    "start": "electron main.js",
+    "win64": "electron-packager . WinApp --platform=win32 --arch=x64 --asar --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gg"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "frohmanthenoob",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^1.7.6"
+  }
+}
